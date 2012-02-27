@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Web</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <link rel="icon" href="/images/rails.png"/>
+</head>
+<body>
+    <div id="container">
+      <div id="flash_notice">
+        <%= flash[:notice] %>
+      </div>
+      <%= yield %>
+    </div>
+</body>
+</html>

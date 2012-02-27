@@ -1,0 +1,26 @@
+<h1>Listing answers</h1>
+
+<table>
+  <tr>
+    <th>Answer</th>
+    <th>Question</th>
+    <th>Status</th>
+  </tr>
+
+<% for answer in @answers %>
+  <tr>
+    <td><%=h answer.answer %></td>
+    <td><%=h answer.question_id %></td>
+    <td><%=h answer.status %></td>
+  </tr>
+<% end %>
+</table>
+<br/>
+<b>View all the Tables</b><br/>
+<a href="/questions">View Questions</a> | <a href="/answers">View Answers</a> | <a href="/images">View Images</a> | <a href="/subtopics">View Sub Topics</a> | <a href="/topics">View Topics</a><br/><br/>
+<b>Delete the Content</b><br/>
+<a href="/questions/destroy_all">Delete All Tables</a>|<a href="/questions/destroy">Delete Questions</a> | <a href="/answers/destroy">Delete Answers</a> | <a href="/images/destroy_all/1">Delete Images</a> | <a href="/subtopics/destroy_all/1">Delete Sub Topics</a> |  <a href="/topics/destroy_all/1">Delete Topics</a>
+
+<br />
+
+

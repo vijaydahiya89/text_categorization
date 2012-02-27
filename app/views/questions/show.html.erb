@@ -1,0 +1,33 @@
+<p>
+  <b>Question:</b>
+  <%=h @question.question %>
+</p>
+
+<p>
+  <b>Option 1:</b>
+  <%=h @question.option_1 %>
+</p>
+
+<p>
+  <b>Option 2:</b>
+  <%=h @question.option_2 %>
+</p>
+
+<p>
+  <b>Option 3:</b>
+  <%=h @question.option_3 %>
+</p>
+
+<p>
+  <b>Option 4:</b>
+  <%=h @question.option_4 %>
+</p>
+
+<p>
+  <b>Correct option:</b>
+  <%=h @question.correct_option %>
+</p>
+
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>

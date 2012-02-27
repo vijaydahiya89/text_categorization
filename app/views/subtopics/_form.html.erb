@@ -1,0 +1,21 @@
+<%= form_for(@subtopic) do |f| %>
+  <% if @subtopic.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@subtopic.errors.count, "error") %> prohibited this subtopic from being saved:</h2>
+
+      <ul>
+      <% @subtopic.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :subtopic %><br />
+    <%= f.text_field :subtopic %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,56 @@
+<h1>Displaying Preview</h1>
+
+
+<table border="1">
+  <% already_displayed_topic_name=""
+  already_displayed_subtopic_name=""%>
+
+  <% for question in @questions %>
+   
+    <% if already_displayed_topic_name != question.topic.topic  %>
+
+        <tr>
+          <td>
+            <div id="topic"><%=h question.topic.topic %></div>
+          </td>
+        </tr>
+        <%already_displayed_topic_name = question.topic.topic %>
+      <%end%>
+
+      <% if already_displayed_subtopic_name != question.subtopic.subtopic  %>
+        <tr>
+          <td>
+            <div id="sub_topic"><%=h question.subtopic.subtopic %></div>
+          </td>
+        </tr>
+        <%already_displayed_subtopic_name = question.subtopic.subtopic %>
+      <%end%>
+       
+      <tr>
+        <td><br/><b>Direction: <%=h question.direction %><br/></b>
+               <% unless question.passage.nil? or question.passage.blank? %>
+                <%=h question.passage.passage %><br/><br/>
+                <%end%>
+                <b><%=h question.question %></b><br/>
+                <% unless question.image.nil? or question.image.blank? %>
+                <img alt="me" src="<%= question.image.path %>" height="100" width="150"></img>
+                <% end %>
+        </td>
+      </tr>
+      <% for answer in question.answers
+        if answer.status == "correct"%>
+          <tr>
+            <td style="color: green"><%=h answer.answer %></td>
+          </tr>
+        <%else%>
+          <tr>
+            <td><%=h answer.answer %><br/><% unless answer.image.nil? or answer.image.blank? %><img alt="me" src="<%= answer.image.path %>" height="100" width="150"></img><% end %></td>
+          </tr>
+        <%end%>
+      <% end %>
+          <tr>
+            <td style="color: red">Question Type: <%=h question.question_type%></td>
+          </tr>
+    <% end %>
+
+  </table>

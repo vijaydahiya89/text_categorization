@@ -1,0 +1,529 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1329409250.5983808:@value{	I"length:EFiI"digest;
+F"%ad06627ac9a17ae37f6cae2bb3f2d3d2I"source;
+FI"body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lucida Grande", sans-serif;
+    color: #333;
+    background: #e5e5e5;
+    font-size: 12px;
+}
+
+#header {
+    background: black;
+    padding: 5px 15px 10px 0px;
+    color: #fff;
+    font-size: 13px;
+    height: 18px;
+}
+
+#header #div_upper_right
+{
+    height:17px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    text-align: right;
+    font-size: 12px;
+    width:240px;
+}
+#header #div_upper_left
+{
+    height: 17px;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: orange;
+}
+#header #div_upper_center
+{
+    text-align: center;
+}
+
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: orange;
+}
+
+#logout {
+    text-align: right;
+    color: #fff;
+}
+
+#logout a{
+    text-decoration: none;
+}
+
+/*-------------------------------------------------
+STRUCTURE
+-------------------------------------------------*/
+
+#container {
+    margin: 12px auto 0 auto;
+    text-align: center;
+    width: 960px;
+}
+
+.left {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 960px;
+    float: left;
+}
+
+#footer {
+    clear: left;
+    /*border-top: 1px solid #ccc;*/
+    padding: 3px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/*--------
+FOR PROPORTIONAL WIDTH
+------*/
+
+.col {
+    padding: 0 20px;
+    text-align: left;
+}
+
+.left .col {
+    padding: 0px 0 0 0;
+    /* background: #fff url("../images/right-bg.gif") right repeat-y;*/
+}
+
+
+.left .col .content {
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+
+
+.left .bottom_strip {
+    background: url(../../images/bottom-bg.gif) top right no-repeat;
+    width:770px;
+    font-size: 8px;
+    margin-left: 0px;
+}
+
+
+/*-------------------------------------------------
+WRITEBOARD TITLE
+-------------------------------------------------*/
+.writeboardtitle
+{
+    overflow: hidden;
+    width: 720px;
+}
+
+.writeboardtitle h3
+{
+    margin: 0px 0px 15px 0px;
+    width: 600px;
+    float: left;
+}
+
+.writeboardtitle #close_comment
+{
+    overflow: hidden;
+}
+
+.div_button a
+{
+    text-decoration: none;
+    -moz-border-radius:5px 5px 5px 5px;
+    background-color:gray;
+    border:1px solid gray;
+    color:#FFFFFF;
+    padding: 10px 31px 10px 31px ;
+    margin: 0px 20px 0px 26px;
+    text-align:center;
+}
+/*-------------------------------------------------
+WRITEBOARD BODY
+-------------------------------------------------*/
+
+.writeboardbody {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    margin: 0 0px 0px 0px;
+    padding: 10px 20px 0px 12px;
+    width: 738px;
+    float: left;
+    background: #fff url("../../images/right-bg.gif") right repeat-y;
+    /* border-right:1px dotted #cccccc;*/
+}
+
+/*-------------------------------------------------
+COMMENTS
+-------------------------------------------------*/
+
+.detailed_desciption{
+    border-bottom: 1px solid #DDDDDD;
+    /* background-color: red;*/
+}
+
+#comments {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    margin: 0 0 15px 0;
+    /* border-top: 1px solid #ddd;*/
+}
+
+.comment {
+    padding: 5px 0;
+    margin: 0;
+}
+
+.comment h2.title {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    margin: 0; padding: 0;
+}
+
+
+.comment h2.title strong {
+    color: #000;
+}
+
+#newcomment {
+    font-size: 12px;
+    margin: 0 0 8px 48px;
+    color: black;
+}
+
+#newcomment h2 {
+    margin: 0px 0px 5px 0px;
+    font-size: 12px;
+}
+
+/*-------------------------------------------------
+SIDEBAR
+-------------------------------------------------*/
+.sidebar{
+
+    padding: 11px 0px 0px 0px;
+}
+
+.sidebar #new_issues
+{
+    margin-top:100px;
+    text-decoration: none;
+    -moz-border-radius:5px 5px 5px 5px;
+    background-color:gray;
+    border:1px solid gray;
+    color:#FFFFFF;
+    padding: 10px 32px 10px 32px;
+    margin: 0px 20px 0px 26px;
+    text-align: center;
+
+    /* text-align:center;*/
+}
+
+#button_login
+{
+    float:left;
+    margin-right: 7px;
+}
+
+#signup a {
+    float:left;
+    margin-right: 7px;
+}
+
+#image {
+    border:medium none;
+    margin:0;
+    padding:0;
+}
+
+#flash_notice
+{
+    color: green;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.title td p {
+    color: black;
+}
+
+textarea
+{
+    font-size: 15px;
+    font-family: "Lucida Grande", sans-serif;
+}
+.writeboardbody h3
+{
+    margin-top: 1px;
+}
+
+#newcomment #submit
+{
+    margin: 10px 0px 0px 0px;
+}
+
+hr{
+    color: #eeeeee;
+}
+
+.sidebar #flash_notice a
+{
+    margin: 1px 0px 0px 0px;
+    padding: 2px 2px 2px 40px;
+}
+.detailed_desciption img
+{
+    border: 2px solid #eeeeee;
+}
+
+.comment h2 .title img
+{
+    border: 2px solid #eeeeee;
+}
+
+#close_comment label
+{
+    margin-left: 40px;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+td
+{
+    /* border: 2px solid black;*/
+    border-bottom: 1px dotted #eeeeee;
+    color: grey;
+}
+table a
+{
+    color: black;
+    text-decoration: none;
+}
+
+table a:hover
+{
+    color:blue;
+}
+table{
+    font-size: 12px;
+}
+
+#my_issues_header
+{
+    height:45px;
+    /* background-color: red;*/
+}
+
+#my_issues_title
+{
+    height:25px;
+    /* background-color: green;*/
+    border-bottom:3px solid black;
+}
+.my_issues_title_left
+{
+    height:25px;
+    /* background-color: yellow;*/
+    float:left;
+    font-size: 18px;
+
+}
+#my_issues_title_right
+{
+    height:25px;
+    /* background-color: blue;*/
+    float:right;
+    font-size: 16px;
+}
+#my_issues_title_bottom
+{
+    /* background-color: khaki;*/
+    height:16px;
+    text-align:right;
+}
+
+#my_issues_title_bottom a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+#my_issues_title_right a
+{
+    text-decoration: none;
+    color:black;
+    font-size: 11px;
+}
+
+#my_issues_title_bottom a:hover
+{
+    color:blue;
+}
+
+#my_issues_title_right a:hover
+{
+    color:blue;
+}
+
+/*style for new bug*/
+
+#div_bug_cancel a
+{
+    text-decoration: none;
+}
+
+.nav_list_ul {
+    margin-left: -48px;
+}
+.clearfix {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+.nav_list_ul li {
+    list-style-type: none;
+    float: left;
+    
+}
+
+.nav_list_ul li a {
+    text-decoration: none;
+    background-color:#E5E5E5;
+    color:black;
+    padding: 4px 32px 4px 32px;
+    margin: 0px 0px 2px 10px;
+    text-align: center;
+}
+#new_bug
+{
+    background-color: #333333;
+    color:white;
+}
+#new_feature
+{
+    background-color: #333333;
+    color:white;
+}
+#new_enhancement
+{
+    background-color: #333333;
+    color:white;
+}
+#new_task
+{
+    background-color: #333333;
+    color:white;
+}
+#new_query
+{
+    background-color: #333333;
+    color:white;
+}
+#div_bug_cancel #issue_submit
+{
+    text-decoration: none;
+    -moz-border-radius:5px 5px 5px 5px;
+    background-color:gray;
+    border:1px solid gray;
+    color:#FFFFFF;
+    padding: 5px 18px 5px 18px;
+    margin: 0px 6px 8px 1px;
+    text-align: center;
+    float:left;
+}
+#home
+{
+    margin-left: 77px;
+}
+
+#bug_bug_cancel
+{
+    text-align: right;
+}
+.writeboardtitle a
+{
+    text-decoration: none;
+}
+
+#issue_short_description
+{
+    width: 590px;
+}
+#issue_detailed_description
+{
+    width: 590px;
+}
+
+/*Style for show page*/
+#show_home
+{
+    margin-left: -77px;
+    margin-bottom: 4px;
+}
+#show_home a
+{
+    text-decoration: none;
+    text-align: left;
+}
+
+#reassign_issue
+{
+    float:right;
+}
+
+.show_short_description
+{
+    margin-top: 10px;
+    font-size: 16px;
+    border-bottom: 1px dotted #DDDDDD;
+    padding-bottom: 4px;
+    
+}
+
+.detailed_desciption
+{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+#show_form
+{
+    font-size: 12px;
+}
+
+#assigned_by
+{
+    color: grey;
+}
+
+#div_login
+{
+ width: 370px;
+ border-right: 1px dotted #DDDDDD;
+ float: left;
+}
+#login_image img
+{
+    margin: 9px 20px 0px 85px;
+}
+;
+FI"_version;
+F"%3de3e7fe6af58c989fd2f1b69da11815

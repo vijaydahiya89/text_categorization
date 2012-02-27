@@ -1,0 +1,36 @@
+<h1>Editing question</h1>
+
+<% form_for(@question) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :question %><br />
+    <%= f.text_field :question %>
+  </p>
+  <p>
+    <%= f.label :option_1 %><br />
+    <%= f.text_field :option_1 %>
+  </p>
+  <p>
+    <%= f.label :option_2 %><br />
+    <%= f.text_field :option_2 %>
+  </p>
+  <p>
+    <%= f.label :option_3 %><br />
+    <%= f.text_field :option_3 %>
+  </p>
+  <p>
+    <%= f.label :option_4 %><br />
+    <%= f.text_field :option_4 %>
+  </p>
+  <p>
+    <%= f.label :correct_option %><br />
+    <%= f.text_field :correct_option %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @question %> |
+<%= link_to 'Back', questions_path %>

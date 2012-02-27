@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1327984253.1310887:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%6b4ddc199426a1a60a76972f713197e1I"logical_path;
+F"corrects.jsI"pathname;
+FI"4$root/app/assets/javascripts/corrects.js.coffee;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-01-31T09:38:34+05:30;
+FI"	body;
+FI"%(function() {
+
+
+
+}).call(this);
+;
+TI"asset_paths;
+F[I"4$root/app/assets/javascripts/corrects.js.coffee;
+FI"dependency_paths;
+F[{I"	path;
+FI"4$root/app/assets/javascripts/corrects.js.coffee;
+FI"
+mtime;
+FIu:	Timeä€Ð!"
+:@_zoneI"IST;
+T:nano_numi«:nano_deni:submicro"h0:offsetiXMI"hexdigest;
+F"%c12f0621e8cbf15a5c4dfa732f9f322aI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

@@ -1,0 +1,65 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1329409911.5272439:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%a17e7473a47efb87c851b694fd8748cbI"logical_path;
+FI"application.css;
+TI"pathname;
+FI"1$root/app/assets/stylesheets/application.css;
+FI"content_type;
+FI"text/css;
+FI"
+mtime;
+FI"2012-02-16T22:01:47+05:30;
+FI"	body;
+FI"body {
+  background-color: #003249;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px;
+}
+
+a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+#flash_notice {
+  padding: 5px 8px;
+  margin: 10px 0;
+  color: green;
+}
+
+#topic
+{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#sub_topic
+{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+;
+FI"asset_paths;
+F[I"1$root/app/assets/stylesheets/application.css;
+FI"dependency_paths;
+F[{I"	path;
+FI"1$root/app/assets/stylesheets/application.css;
+FI"
+mtime;
+FIu:	Time€öný~
+:@_zoneI"IST;
+T:nano_numi€:nano_deni:submicro"d:offsetiXMI"hexdigest;
+F"%a1d2cfcbe91316b825938582b8acd44eI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

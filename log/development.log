@@ -1,0 +1,888 @@
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 16:43:00 +0530
+  Processing by QuestionsController#parse_new as HTML
+  Parameters: {"id"=>"1"}
+======inspecting=========="Question-Bank: Mixed Questions\nTopic: Maths\nSub-topic: Equations\nMarks: 2,-1\nDirection: This is the direction for the question 1-4\nPassage:\nIndia has a unified legal profession governed by the Advocates Act of 1961.  The entry to the\nprofession is perhaps less rigorous than it ought to be.  The standard qualification for the entry is\ngraduation in law rather than any practical training.\n    At present there are about 500 law colleges of\nvaried quality.  The nature of legal education is relevant not merely for professional competence.  It\nalso determines how far a lawyer cultivates his professional obligation to his client, to Courts and to\nthe society at large.  The present relaxed entry to the profession has led to a prolific number of\nlawyers approaching 500,000, a distinction exceeded only by the United States.\n1. The magnificent constitution that we have framed was later kidnapped and purloined by the\nlawyers. The underlined word means\n(a) derogated.\n(b) stolen.\n(c) maligned.\n(d) ignored\n(e) insulted\n2. Which of the following cannot be inferred from the passage ?\n(a) A majority of the Indian political leaders are lawyers.\n(b) Very few junior lawyers practice in different states.\n(c) It is not difficult to join the legal profession.\n(d) civil litigation is very limited in India\n(e) none of the above.\nAns: b\n3. The costs are calculated on such a nominal basis as to be almost derisory. The underlined\nword maybe replaced with\n(a) ridiculous\n(b) negligible\n(c) biased\n(d) deflationary\n(e) irrelevant\nAns: c\n4. Mansfield suggests that It is better not to give reasons for a judgment.  By this he means\n(a) no two persons normally reason in the same way.\n(b) all arbitrators make correct decisions but their logic is often erroneous.\n(c) two persons in argument will never see the decision of an arbitrator in the same light.\n(d) giving reasons leads to move debates on the decision\n(e) none of the above\nAns: d\nTopic: Maths"
+======inspecting=========="Sub-topic: Equations\nMarks: 2,-1\nQ5. What is the author's attitude towards departmental societies.\n(a) thus feel that they are working in an executive capacity.\n(b) are too independent of the corporation to submit willingly to\n(c) become estranged from the owners with whom they can no longer\n(d) are desirous of improving their skills.\nAnswer: a,b,c\nSub-topic: General\nDirection: This is the direction for this question.\nQ6. what is the capital of india?\n<img>\na. Delhi\nb. New Delhi\nAns: a,b\nQ7. who among this is from pandavas?\n(a) Bheem\n(b) yudhistir\n(c) Arjun\n(d) Nakul\n(e) Duryodhan\nAns: a,b,c,d\nQ8. who is the prime minister among these?\n(a) Atal bihari vajpayee"
+======inspecting=========="(b) Apj abdul kalam\n(c) Manmohan Singh\n(d) Pratibha Patil\nAns: a,c\nQ9. which of these are states?\n(a) Delhi\n(b) karnataka\n(c) Haryana\n(d) Chandigarh\n(e) Punjab\nAns: b,c,e\nTopic: Algebra\nSub-topic: newly\nTags: easy,3,0\nDirections: Each of the following question 10-12 has this as direction\nQ10.  \"Atwiddle \" in line most likely means\nA. upright\nB. alert\nC. flaccid\nD. quiescent\n<img>\nE. inquisitive\nAns: A\nTags: medium,2,0\nQ11. Where are You?\n(a) Delhi\n(b) Hyderabad\n(c) Chandigarh\nAns: b"
+======inspecting=========="Q12. I, he and you must go to the party.\n(a) You, he and I\n(b) he, I and you\n(c) I, he and you\n(d) You, I and he\n(e) I, you and he\nAns: a\nQ13. She is better than any teacher.\n(a) better than any\n(b) better any\n(c) better than any other\n(d) better than any one\n(e) good than any\nAns: b\nQ14. Only a few apples its left.\n(a) it left\n(b) its left\n(c) is left\n(d) are left\n(e) its leaving\nAns: d\nDirection: This is the direction for india as a question.\nQ15. Which city is called as pink city?\nAns: Jaipur\nQ16. Where is the problem?\nAns: In the direction.\nDirection: This is the direction for 17-20 a question.\nQ17. Where is India?\nAns: Asia\nQ18. Which lap you are using?\nAns: DEll\nQ19. What is the capital of india?\nAns: New Delhi\nQ20. what is the formula of water____?\nAns: H2O\nQ21. who is the father of computer____?\nAns: Charles Babbage\nQ22. _____ is the first prime minister of india?\nAns: Jawahar Lal Nehru\nQ23. what you want to have _____?"
+======inspecting=========="Ans: Cold Drink."
+Completed 500 Internal Server Error in 15341ms
+
+ActionView::MissingTemplate (Missing template questions/parse_new, application/parse_new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/satsahib/office/parsing_new/app/views"
+):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 16:54:29 +0530
+  Processing by QuestionsController#parse_new as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 15333ms
+
+ActionView::MissingTemplate (Missing template questions/parse_new, application/parse_new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/satsahib/office/parsing_new/app/views"
+):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 17:00:56 +0530
+
+SyntaxError (/home/satsahib/office/parsing_new/app/controllers/questions_controller.rb:687: syntax error, unexpected '|', expecting '}'
+    { |f| f.write(page.text) }
+       ^
+/home/satsahib/office/parsing_new/app/controllers/questions_controller.rb:687: syntax error, unexpected '}', expecting keyword_end):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 17:03:07 +0530
+  Processing by QuestionsController#parse_new as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 9392ms
+
+ActionView::MissingTemplate (Missing template questions/parse_new, application/parse_new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/satsahib/office/parsing_new/app/views"
+):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 17:09:53 +0530
+  Processing by QuestionsController#parse_new as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 5764ms
+
+ActionView::MissingTemplate (Missing template questions/parse_new, application/parse_new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/satsahib/office/parsing_new/app/views"
+):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 17:11:25 +0530
+  Processing by QuestionsController#parse_new as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 6018ms
+
+ActionView::MissingTemplate (Missing template questions/parse_new, application/parse_new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/satsahib/office/parsing_new/app/views"
+):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/questions/parse_new/1" for 127.0.0.1 at 2012-02-27 17:13:54 +0530
+  Processing by QuestionsController#parse_new as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 5520ms
+
+ActionView::MissingTemplate (Missing template questions/parse_new, application/parse_new with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/home/satsahib/office/parsing_new/app/views"
+):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/questions/parse/1" for 127.0.0.1 at 2012-02-27 17:15:42 +0530
+
+SyntaxError (/home/satsahib/office/parsing_new/app/controllers/questions_controller.rb:696: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/satsahib/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/questions/parse/1" for 127.0.0.1 at 2012-02-27 17:16:36 +0530
+  Processing by QuestionsController#parse as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `question_banks` (`created_at`, `name`, `updated_at`) VALUES ('2012-02-27 11:46:42', 'Mixed Questions', '2012-02-27 11:46:42')[0m
+  [1m[35m (67.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `topics` (`created_at`, `topic`, `updated_at`) VALUES ('2012-02-27 11:46:42', 'Maths', '2012-02-27 11:46:42')
+  [1m[36m (46.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `subtopics` (`created_at`, `subtopic`, `topic_id`, `updated_at`) VALUES ('2012-02-27 11:46:42', 'Equations', 165, '2012-02-27 11:46:42')[0m
+  [1m[35m (40.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `passages` (`created_at`, `passage`, `updated_at`) VALUES ('2012-02-27 11:46:42', 'Passage: ', '2012-02-27 11:46:42')
+  [1m[36m (40.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the', `updated_at` = '2012-02-27 11:46:42' WHERE `passages`.`id` = 70[0m
+  [1m[35m (45.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is', `updated_at` = '2012-02-27 11:46:42' WHERE `passages`.`id` = 70
+  [1m[36m (63.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is\ngraduation in law rather than any practical training. ', `updated_at` = '2012-02-27 11:46:42' WHERE `passages`.`id` = 70[0m
+  [1m[35m (55.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is\ngraduation in law rather than any practical training. \n At present there are about 500 law colleges of', `updated_at` = '2012-02-27 11:46:42' WHERE `passages`.`id` = 70
+  [1m[36m (55.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is\ngraduation in law rather than any practical training. \n At present there are about 500 law colleges of\nvaried quality. The nature of legal education is relevant not merely for professional competence . It', `updated_at` = '2012-02-27 11:46:43' WHERE `passages`.`id` = 70[0m
+  [1m[35m (55.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is\ngraduation in law rather than any practical training. \n At present there are about 500 law colleges of\nvaried quality. The nature of legal education is relevant not merely for professional competence . It\nalso determines how far a lawyer cultivates his professional obligation to his client , to Courts and to', `updated_at` = '2012-02-27 11:46:43' WHERE `passages`.`id` = 70
+  [1m[36m (39.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is\ngraduation in law rather than any practical training. \n At present there are about 500 law colleges of\nvaried quality. The nature of legal education is relevant not merely for professional competence . It\nalso determines how far a lawyer cultivates his professional obligation to his client , to Courts and to\nthe society at large. The present relaxed entry to the profession has led to a prolific number of', `updated_at` = '2012-02-27 11:46:43' WHERE `passages`.`id` = 70[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `passages` SET `passage` = 'Passage: \nIndia has a unified legal profession governed by the Advocates Act of 1961. The entry to the\nprofession is perhaps less rigorous than it ought to be. The standard qualification for the entry is\ngraduation in law rather than any practical training. \n At present there are about 500 law colleges of\nvaried quality. The nature of legal education is relevant not merely for professional competence . It\nalso determines how far a lawyer cultivates his professional obligation to his client , to Courts and to\nthe society at large. The present relaxed entry to the profession has led to a prolific number of\nlawyers approaching 500 ,000 , a distinction exceeded only by the United States. ', `updated_at` = '2012-02-27 11:46:43' WHERE `passages`.`id` = 70
+  [1m[36m (46.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:43', NULL, NULL, '-1', NULL, '2 ', 'The magnificent constitution that we have framed was later kidnapped and purloined by the', NULL, 23, 212, 165, '2012-02-27 11:46:43')[0m
+  [1m[35m (47.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `direction` = 'This is the direction for the question 1-4', `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1115
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `passage_id` = 70, `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1115[0m
+  [1m[35m (48.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `question_type` = 'PTQ', `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1115
+  [1m[36m (38.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `question` = 'The magnificent constitution that we have framed was later kidnapped and purloined by the lawyers. The underlined word means', `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1115[0m
+  [1m[35m (46.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) derogated. ', '2012-02-27 11:46:43', 1115, 'wrong', '2012-02-27 11:46:43')
+  [1m[36m (54.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) stolen. ', '2012-02-27 11:46:43', 1115, 'wrong', '2012-02-27 11:46:43')[0m
+  [1m[35m (37.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) maligned. ', '2012-02-27 11:46:43', 1115, 'wrong', '2012-02-27 11:46:43')
+  [1m[36m (46.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) ignored', '2012-02-27 11:46:43', 1115, 'wrong', '2012-02-27 11:46:43')[0m
+  [1m[35m (46.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) insulted', '2012-02-27 11:46:43', 1115, 'wrong', '2012-02-27 11:46:43')
+  [1m[36m (39.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:43', NULL, NULL, '-1', NULL, '2 ', 'Which of the following cannot be inferred from the passage ?', NULL, 23, 212, 165, '2012-02-27 11:46:43')[0m
+  [1m[35m (36.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `direction` = 'This is the direction for the question 1-4', `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1116
+  [1m[36m (54.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `questions` SET `passage_id` = 70, `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1116[0m
+  [1m[35m (38.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `questions` SET `question_type` = 'PTQ', `updated_at` = '2012-02-27 11:46:43' WHERE `questions`.`id` = 1116
+  [1m[36m (39.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) A majority of the Indian political leaders are lawyers. ', '2012-02-27 11:46:43', 1116, 'wrong', '2012-02-27 11:46:43')[0m
+  [1m[35m (45.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) Very few junior lawyers practice in different states. ', '2012-02-27 11:46:43', 1116, 'wrong', '2012-02-27 11:46:43')
+  [1m[36m (53.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) It is not difficult to join the legal profession. ', '2012-02-27 11:46:44', 1116, 'wrong', '2012-02-27 11:46:44')[0m
+  [1m[35m (38.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) civil litigation is very limited in India', '2012-02-27 11:46:44', 1116, 'wrong', '2012-02-27 11:46:44')
+  [1m[36m (46.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) none of the above. ', '2012-02-27 11:46:44', 1116, 'wrong', '2012-02-27 11:46:44')[0m
+  [1m[35m (37.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1116
+  [1m[36m (37.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.9ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1116
+  [1m[36mAnswer Load (0.4ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3908 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:44' WHERE `answers`.`id` = 3908[0m
+  [1m[35m (59.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:44', NULL, NULL, '-1', NULL, '2 ', 'The costs are calculated on such a nominal basis as to be almost derisory . The underlined', NULL, 23, 212, 165, '2012-02-27 11:46:44')
+  [1m[36m (35.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for the question 1-4', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1117[0m
+  [1m[35m (46.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `passage_id` = 70, `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1117
+  [1m[36m (39.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'PTQ', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1117[0m
+  [1m[35m (38.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `question` = 'The costs are calculated on such a nominal basis as to be almost derisory . The underlined word maybe replaced with', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1117
+  [1m[36m (38.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) ridiculous', '2012-02-27 11:46:44', 1117, 'wrong', '2012-02-27 11:46:44')[0m
+  [1m[35m (37.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) negligible', '2012-02-27 11:46:44', 1117, 'wrong', '2012-02-27 11:46:44')
+  [1m[36m (46.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) biased', '2012-02-27 11:46:44', 1117, 'wrong', '2012-02-27 11:46:44')[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) deflationary', '2012-02-27 11:46:44', 1117, 'wrong', '2012-02-27 11:46:44')
+  [1m[36m (38.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) irrelevant', '2012-02-27 11:46:44', 1117, 'wrong', '2012-02-27 11:46:44')[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1117
+  [1m[36m (47.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.7ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1117
+  [1m[36mAnswer Load (0.4ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3914 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:44' WHERE `answers`.`id` = 3914[0m
+  [1m[35m (45.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:44', NULL, NULL, '-1', NULL, '2 ', 'Mansfield suggests that It is better not to give reasons for a judgment . By this he means', NULL, 23, 212, 165, '2012-02-27 11:46:44')
+  [1m[36m (44.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for the question 1-4', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1118[0m
+  [1m[35m (38.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `questions` SET `passage_id` = 70, `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1118
+  [1m[36m (39.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'PTQ', `updated_at` = '2012-02-27 11:46:44' WHERE `questions`.`id` = 1118[0m
+  [1m[35m (47.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) no two persons normally reason in the same way. ', '2012-02-27 11:46:44', 1118, 'wrong', '2012-02-27 11:46:44')
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) all arbitrators make correct decisions but their logic is often erroneous. ', '2012-02-27 11:46:45', 1118, 'wrong', '2012-02-27 11:46:45')[0m
+  [1m[35m (39.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) two persons in argument will never see the decision of an arbitrator in the same light. ', '2012-02-27 11:46:45', 1118, 'wrong', '2012-02-27 11:46:45')
+  [1m[36m (47.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) giving reasons leads to move debates on the decision', '2012-02-27 11:46:45', 1118, 'wrong', '2012-02-27 11:46:45')[0m
+  [1m[35m (38.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) none of the above', '2012-02-27 11:46:45', 1118, 'wrong', '2012-02-27 11:46:45')
+  [1m[36m (38.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:45' WHERE `questions`.`id` = 1118[0m
+  [1m[35m (38.2ms)[0m  COMMIT
+  [1m[36mAnswer Load (1.1ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1118[0m
+  [1m[35mAnswer Load (0.5ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3920 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:45' WHERE `answers`.`id` = 3920
+  [1m[36m (50.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `topics` (`created_at`, `topic`, `updated_at`) VALUES ('2012-02-27 11:46:45', 'Maths', '2012-02-27 11:46:45')[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `subtopics` (`created_at`, `subtopic`, `topic_id`, `updated_at`) VALUES ('2012-02-27 11:46:45', 'Equations', 166, '2012-02-27 11:46:45')
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:45', NULL, NULL, '-1', NULL, '2 ', 'What is the author\'s attitude towards departmental societies .', NULL, 23, 213, 166, '2012-02-27 11:46:45')[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) thus feel that they are working in an executive capacity. ', '2012-02-27 11:46:45', 1119, 'wrong', '2012-02-27 11:46:45')
+  [1m[36m (37.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) are too independent of the corporation to submit willingly to', '2012-02-27 11:46:45', 1119, 'wrong', '2012-02-27 11:46:45')[0m
+  [1m[35m (46.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) become estranged from the owners with whom they can no longer', '2012-02-27 11:46:45', 1119, 'wrong', '2012-02-27 11:46:45')
+  [1m[36m (39.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) are desirous of improving their skills. ', '2012-02-27 11:46:45', 1119, 'wrong', '2012-02-27 11:46:45')[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:45' WHERE `questions`.`id` = 1119
+  [1m[36m (38.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.8ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1119
+  [1m[36mAnswer Load (0.4ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3922 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:45' WHERE `answers`.`id` = 3922[0m
+  [1m[35m (45.0ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.6ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3923 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:45' WHERE `answers`.`id` = 3923[0m
+  [1m[35m (44.2ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3924 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:45' WHERE `answers`.`id` = 3924[0m
+  [1m[35m (36.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `questions` SET `question_type` = 'MAQ', `updated_at` = '2012-02-27 11:46:45' WHERE `questions`.`id` = 1119
+  [1m[36m (39.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `subtopics` (`created_at`, `subtopic`, `topic_id`, `updated_at`) VALUES ('2012-02-27 11:46:45', 'General', 166, '2012-02-27 11:46:45')[0m
+  [1m[35m (44.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:45', NULL, NULL, '-1', NULL, '2 ', 'what is the capital of india ?', NULL, 23, 214, 166, '2012-02-27 11:46:45')
+  [1m[36m (46.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for this question.', `updated_at` = '2012-02-27 11:46:45' WHERE `questions`.`id` = 1120[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `images` (`answer_id`, `created_at`, `name`, `path`, `question_id`, `updated_at`) VALUES (0, '2012-02-27 11:46:45', '-000.jpg', '/assets/my_images/-000.jpg', 1120, '2012-02-27 11:46:45')
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('a. Delhi', '2012-02-27 11:46:46', 1120, 'wrong', '2012-02-27 11:46:46')[0m
+  [1m[35m (45.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('b. New Delhi', '2012-02-27 11:46:46', 1120, 'wrong', '2012-02-27 11:46:46')
+  [1m[36m (47.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:46' WHERE `questions`.`id` = 1120[0m
+  [1m[35m (39.3ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.9ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1120[0m
+  [1m[35mAnswer Load (0.6ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3926 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:46' WHERE `answers`.`id` = 3926
+  [1m[36m (50.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.5ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3927 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:46' WHERE `answers`.`id` = 3927
+  [1m[36m (45.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `question_type` = 'MAQ', `updated_at` = '2012-02-27 11:46:46' WHERE `questions`.`id` = 1120[0m
+  [1m[35m (38.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:46', NULL, NULL, '-1', NULL, '2 ', 'who among this is from pandavas ?', NULL, 23, 214, 166, '2012-02-27 11:46:46')
+  [1m[36m (36.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = '', `updated_at` = '2012-02-27 11:46:46' WHERE `questions`.`id` = 1121[0m
+  [1m[35m (38.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) Bheem', '2012-02-27 11:46:46', 1121, 'wrong', '2012-02-27 11:46:46')
+  [1m[36m (36.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) yudhistir', '2012-02-27 11:46:46', 1121, 'wrong', '2012-02-27 11:46:46')[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) Arjun', '2012-02-27 11:46:46', 1121, 'wrong', '2012-02-27 11:46:46')
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) Nakul', '2012-02-27 11:46:46', 1121, 'wrong', '2012-02-27 11:46:46')[0m
+  [1m[35m (39.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) Duryodhan', '2012-02-27 11:46:46', 1121, 'wrong', '2012-02-27 11:46:46')
+  [1m[36m (38.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:46' WHERE `questions`.`id` = 1121[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36mAnswer Load (1.0ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1121[0m
+  [1m[35mAnswer Load (0.4ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3928 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:46' WHERE `answers`.`id` = 3928
+  [1m[36m (43.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.6ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3929 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:46' WHERE `answers`.`id` = 3929
+  [1m[36m (36.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.6ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3930 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:46' WHERE `answers`.`id` = 3930
+  [1m[36m (36.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (0.6ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3931 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:46' WHERE `answers`.`id` = 3931
+  [1m[36m (37.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `questions` SET `question_type` = 'MAQ', `updated_at` = '2012-02-27 11:46:46' WHERE `questions`.`id` = 1121[0m
+  [1m[35m (38.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:46', NULL, NULL, '-1', NULL, '2 ', 'who is the prime minister among these ?', NULL, 23, 214, 166, '2012-02-27 11:46:46')
+  [1m[36m (36.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `direction` = '', `updated_at` = '2012-02-27 11:46:46' WHERE `questions`.`id` = 1122[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) Atal bihari vajpayee', '2012-02-27 11:46:46', 1122, 'wrong', '2012-02-27 11:46:46')
+  [1m[36m (39.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) Apj abdul kalam', '2012-02-27 11:46:46', 1122, 'wrong', '2012-02-27 11:46:46')[0m
+  [1m[35m (46.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) Manmohan Singh', '2012-02-27 11:46:47', 1122, 'wrong', '2012-02-27 11:46:47')
+  [1m[36m (37.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) Pratibha Patil', '2012-02-27 11:46:47', 1122, 'wrong', '2012-02-27 11:46:47')[0m
+  [1m[35m (37.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:47' WHERE `questions`.`id` = 1122
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (1.5ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1122
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3933 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:47' WHERE `answers`.`id` = 3933[0m
+  [1m[35m (43.2ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.7ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3935 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:47' WHERE `answers`.`id` = 3935[0m
+  [1m[35m (36.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  UPDATE `questions` SET `question_type` = 'MAQ', `updated_at` = '2012-02-27 11:46:47' WHERE `questions`.`id` = 1122
+  [1m[36m (44.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:47', NULL, NULL, '-1', NULL, '2 ', 'which of these are states ?', NULL, 23, 214, 166, '2012-02-27 11:46:47')[0m
+  [1m[35m (45.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `direction` = '', `updated_at` = '2012-02-27 11:46:47' WHERE `questions`.`id` = 1123
+  [1m[36m (47.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) Delhi', '2012-02-27 11:46:47', 1123, 'wrong', '2012-02-27 11:46:47')[0m
+  [1m[35m (46.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) karnataka', '2012-02-27 11:46:47', 1123, 'wrong', '2012-02-27 11:46:47')
+  [1m[36m (39.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) Haryana', '2012-02-27 11:46:47', 1123, 'wrong', '2012-02-27 11:46:47')[0m
+  [1m[35m (37.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) Chandigarh', '2012-02-27 11:46:47', 1123, 'wrong', '2012-02-27 11:46:47')
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) Punjab', '2012-02-27 11:46:47', 1123, 'wrong', '2012-02-27 11:46:47')[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:47' WHERE `questions`.`id` = 1123
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (1.7ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1123
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3938 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:47' WHERE `answers`.`id` = 3938[0m
+  [1m[35m (42.5ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.8ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3939 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:47' WHERE `answers`.`id` = 3939[0m
+  [1m[35m (36.3ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.8ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3941 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:47' WHERE `answers`.`id` = 3941[0m
+  [1m[35m (36.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `question_type` = 'MAQ', `updated_at` = '2012-02-27 11:46:47' WHERE `questions`.`id` = 1123
+  [1m[36m (38.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `topics` (`created_at`, `topic`, `updated_at`) VALUES ('2012-02-27 11:46:47', 'Algebra', '2012-02-27 11:46:47')[0m
+  [1m[35m (36.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `subtopics` (`created_at`, `subtopic`, `topic_id`, `updated_at`) VALUES ('2012-02-27 11:46:47', 'newly', 167, '2012-02-27 11:46:47')
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE `questions` SET `difficulty_id` = 'easy ', `positive_id` = '3 ', `negative_id` = '0', `updated_at` = '2012-02-27 11:46:47' WHERE `questions`.`id` = 1123[0m
+  [1m[35m (37.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:47', NULL, NULL, '-1', NULL, '2 ', '\"Atwiddle \" in line most likely means', NULL, 23, 215, 167, '2012-02-27 11:46:47')
+  [1m[36m (36.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE `questions` SET `direction` = 'Each of the following question 10-12 has this as direction', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1124[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('A. upright', '2012-02-27 11:46:48', 1124, 'wrong', '2012-02-27 11:46:48')
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('B. alert', '2012-02-27 11:46:48', 1124, 'wrong', '2012-02-27 11:46:48')[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('C. flaccid', '2012-02-27 11:46:48', 1124, 'wrong', '2012-02-27 11:46:48')
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('D. quiescent', '2012-02-27 11:46:48', 1124, 'wrong', '2012-02-27 11:46:48')[0m
+  [1m[35m (45.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `images` (`answer_id`, `created_at`, `name`, `path`, `question_id`, `updated_at`) VALUES (3945, '2012-02-27 11:46:48', '-001.jpg', '/assets/my_images/-001.jpg', 0, '2012-02-27 11:46:48')
+  [1m[36m (36.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('E. inquisitive', '2012-02-27 11:46:48', 1124, 'wrong', '2012-02-27 11:46:48')[0m
+  [1m[35m (46.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1124
+  [1m[36m (38.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (1.0ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1124
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3942 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:48' WHERE `answers`.`id` = 3942[0m
+  [1m[35m (45.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `question_type` = 'MCQ', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1124
+  [1m[36m (38.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `difficulty_id` = 'medium ', `negative_id` = '0', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1124[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:48', NULL, NULL, '-1', NULL, '2 ', 'Where are You ?', NULL, 23, 215, 167, '2012-02-27 11:46:48')
+  [1m[36m (38.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `direction` = 'Each of the following question 10-12 has this as direction', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1125[0m
+  [1m[35m (46.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) Delhi', '2012-02-27 11:46:48', 1125, 'wrong', '2012-02-27 11:46:48')
+  [1m[36m (47.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) Hyderabad', '2012-02-27 11:46:48', 1125, 'wrong', '2012-02-27 11:46:48')[0m
+  [1m[35m (37.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) Chandigarh', '2012-02-27 11:46:48', 1125, 'wrong', '2012-02-27 11:46:48')
+  [1m[36m (46.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1125[0m
+  [1m[35m (38.3ms)[0m  COMMIT
+  [1m[36mAnswer Load (1.3ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1125[0m
+  [1m[35mAnswer Load (0.5ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3948 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:48' WHERE `answers`.`id` = 3948
+  [1m[36m (34.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `questions` SET `question_type` = 'MCQ', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1125[0m
+  [1m[35m (38.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:48', NULL, NULL, '-1', NULL, '2 ', 'I , he and you must go to the party .', NULL, 23, 215, 167, '2012-02-27 11:46:48')
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `direction` = 'Each of the following question 10-12 has this as direction', `updated_at` = '2012-02-27 11:46:48' WHERE `questions`.`id` = 1126[0m
+  [1m[35m (38.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) You , he and I', '2012-02-27 11:46:48', 1126, 'wrong', '2012-02-27 11:46:48')
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) he , I and you', '2012-02-27 11:46:48', 1126, 'wrong', '2012-02-27 11:46:48')[0m
+  [1m[35m (39.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) I , he and you', '2012-02-27 11:46:49', 1126, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (38.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) You , I and he', '2012-02-27 11:46:49', 1126, 'wrong', '2012-02-27 11:46:49')[0m
+  [1m[35m (38.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) I , you and he', '2012-02-27 11:46:49', 1126, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:49' WHERE `questions`.`id` = 1126[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36mAnswer Load (1.2ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1126[0m
+  [1m[35mAnswer Load (0.5ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3950 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:49' WHERE `answers`.`id` = 3950
+  [1m[36m (43.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'MCQ', `updated_at` = '2012-02-27 11:46:49' WHERE `questions`.`id` = 1126[0m
+  [1m[35m (46.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:49', NULL, NULL, '-1', NULL, '2 ', 'She is better than any teacher .', NULL, 23, 215, 167, '2012-02-27 11:46:49')
+  [1m[36m (36.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) better than any', '2012-02-27 11:46:49', 1127, 'wrong', '2012-02-27 11:46:49')[0m
+  [1m[35m (45.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) better any', '2012-02-27 11:46:49', 1127, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (39.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) better than any other', '2012-02-27 11:46:49', 1127, 'wrong', '2012-02-27 11:46:49')[0m
+  [1m[35m (46.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) better than any one', '2012-02-27 11:46:49', 1127, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (37.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) good than any', '2012-02-27 11:46:49', 1127, 'wrong', '2012-02-27 11:46:49')[0m
+  [1m[35m (46.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:49' WHERE `questions`.`id` = 1127
+  [1m[36m (38.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mAnswer Load (1.1ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1127
+  [1m[36mAnswer Load (0.5ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3956 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:49' WHERE `answers`.`id` = 3956[0m
+  [1m[35m (43.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `question_type` = 'MCQ', `updated_at` = '2012-02-27 11:46:49' WHERE `questions`.`id` = 1127
+  [1m[36m (37.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:49', NULL, NULL, '-1', NULL, '2 ', 'Only a few apples its left .', NULL, 23, 215, 167, '2012-02-27 11:46:49')[0m
+  [1m[35m (36.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(a) it left', '2012-02-27 11:46:49', 1128, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (37.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(b) its left', '2012-02-27 11:46:49', 1128, 'wrong', '2012-02-27 11:46:49')[0m
+  [1m[35m (39.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(c) is left', '2012-02-27 11:46:49', 1128, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (47.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(d) are left', '2012-02-27 11:46:49', 1128, 'wrong', '2012-02-27 11:46:49')[0m
+  [1m[35m (39.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES ('(e) its leaving', '2012-02-27 11:46:49', 1128, 'wrong', '2012-02-27 11:46:49')
+  [1m[36m (55.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:49' WHERE `questions`.`id` = 1128[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36mAnswer Load (0.8ms)[0m  [1mSELECT `answers`.* FROM `answers` WHERE `answers`.`question_id` = 1128[0m
+  [1m[35mAnswer Load (0.3ms)[0m  SELECT `answers`.* FROM `answers` WHERE `answers`.`id` = 3963 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  UPDATE `answers` SET `status` = 'correct', `updated_at` = '2012-02-27 11:46:50' WHERE `answers`.`id` = 3963
+  [1m[36m (37.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `question_type` = 'MCQ', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1128[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:50', NULL, NULL, '-1', NULL, '2 ', 'Which city is called as pink city ?', NULL, 23, 215, 167, '2012-02-27 11:46:50')
+  [1m[36m (35.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for india as a question.', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1129[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1129
+  [1m[36m (38.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'SA', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1129[0m
+  [1m[35m (38.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:50', NULL, 'correct', '2012-02-27 11:46:50')
+  [1m[36m (37.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' Jaipur', '2012-02-27 11:46:50', 1129, 'correct', '2012-02-27 11:46:50')[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:50', NULL, NULL, '-1', NULL, '2 ', 'Where is the problem ?', NULL, 23, 215, 167, '2012-02-27 11:46:50')
+  [1m[36m (36.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = '', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1130[0m
+  [1m[35m (38.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1130
+  [1m[36m (37.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `question_type` = 'SA', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1130[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:50', NULL, 'correct', '2012-02-27 11:46:50')
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' In the direction. ', '2012-02-27 11:46:50', 1130, 'correct', '2012-02-27 11:46:50')[0m
+  [1m[35m (38.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:50', NULL, NULL, '-1', NULL, '2 ', 'Where is India ?', NULL, 23, 215, 167, '2012-02-27 11:46:50')
+  [1m[36m (44.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for 17-20 a question.', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1131[0m
+  [1m[35m (46.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1131
+  [1m[36m (38.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `question_type` = 'SA', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1131[0m
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:50', NULL, 'correct', '2012-02-27 11:46:50')
+  [1m[36m (37.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' Asia', '2012-02-27 11:46:50', 1131, 'correct', '2012-02-27 11:46:50')[0m
+  [1m[35m (46.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:50', NULL, NULL, '-1', NULL, '2 ', 'Which lap you are using ?', NULL, 23, 215, 167, '2012-02-27 11:46:50')
+  [1m[36m (37.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for 17-20 a question.', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1132[0m
+  [1m[35m (38.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1132
+  [1m[36m (39.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'SA', `updated_at` = '2012-02-27 11:46:50' WHERE `questions`.`id` = 1132[0m
+  [1m[35m (37.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:51', NULL, 'correct', '2012-02-27 11:46:51')
+  [1m[36m (37.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' DEll', '2012-02-27 11:46:51', 1132, 'correct', '2012-02-27 11:46:51')[0m
+  [1m[35m (46.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:51', NULL, NULL, '-1', NULL, '2 ', 'What is the capital of india ?', NULL, 23, 215, 167, '2012-02-27 11:46:51')
+  [1m[36m (36.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for 17-20 a question.', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1133[0m
+  [1m[35m (39.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1133
+  [1m[36m (38.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'SA', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1133[0m
+  [1m[35m (47.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:51', NULL, 'correct', '2012-02-27 11:46:51')
+  [1m[36m (48.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' New Delhi', '2012-02-27 11:46:51', 1133, 'correct', '2012-02-27 11:46:51')[0m
+  [1m[35m (39.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:51', NULL, NULL, '-1', NULL, '2 ', 'what is the formula of water____ ?', NULL, 23, 215, 167, '2012-02-27 11:46:51')
+  [1m[36m (36.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `direction` = 'This is the direction for 17-20 a question.', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1134[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1134
+  [1m[36m (38.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mUPDATE `questions` SET `question_type` = 'FIB', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1134[0m
+  [1m[35m (38.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:51', NULL, 'correct', '2012-02-27 11:46:51')
+  [1m[36m (39.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' H2O', '2012-02-27 11:46:51', 1134, 'correct', '2012-02-27 11:46:51')[0m
+  [1m[35m (37.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:51', NULL, NULL, '-1', NULL, '2 ', 'who is the father of computer____ ?', NULL, 23, 215, 167, '2012-02-27 11:46:51')
+  [1m[36m (38.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1135[0m
+  [1m[35m (54.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `question_type` = 'FIB', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1135
+  [1m[36m (38.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:51', NULL, 'correct', '2012-02-27 11:46:51')[0m
+  [1m[35m (37.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' Charles Babbage', '2012-02-27 11:46:51', 1135, 'correct', '2012-02-27 11:46:51')
+  [1m[36m (45.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:51', NULL, NULL, '-1', NULL, '2 ', '_____ is the first prime minister of india ?', NULL, 23, 215, 167, '2012-02-27 11:46:51')[0m
+  [1m[35m (44.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1136
+  [1m[36m (46.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `question_type` = 'FIB', `updated_at` = '2012-02-27 11:46:51' WHERE `questions`.`id` = 1136[0m
+  [1m[35m (38.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:52', NULL, 'correct', '2012-02-27 11:46:52')
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' Jawahar Lal Nehru', '2012-02-27 11:46:52', 1136, 'correct', '2012-02-27 11:46:52')[0m
+  [1m[35m (47.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `questions` (`ans_status`, `created_at`, `difficulty_id`, `direction`, `negative_id`, `passage_id`, `positive_id`, `question`, `question_type`, `questionbank_id`, `subtopic_id`, `topic_id`, `updated_at`) VALUES ('no_ans', '2012-02-27 11:46:52', NULL, NULL, '-1', NULL, '2 ', 'what you want to have _____ ?', NULL, 23, 215, 167, '2012-02-27 11:46:52')
+  [1m[36m (44.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `questions` SET `ans_status` = 'ans', `updated_at` = '2012-02-27 11:46:52' WHERE `questions`.`id` = 1137[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `questions` SET `question_type` = 'FIB', `updated_at` = '2012-02-27 11:46:52' WHERE `questions`.`id` = 1137
+  [1m[36m (47.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (NULL, '2012-02-27 11:46:52', NULL, 'correct', '2012-02-27 11:46:52')[0m
+  [1m[35m (45.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `answers` (`answer`, `created_at`, `question_id`, `status`, `updated_at`) VALUES (' Cold Drink. ', '2012-02-27 11:46:52', 1137, 'correct', '2012-02-27 11:46:52')
+  [1m[36m (38.1ms)[0m  [1mCOMMIT[0m
+Rendered questions/parse.erb within layouts/application (0.1ms)
+Completed 200 OK in 15321ms (Views: 12.9ms | ActiveRecord: 9038.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/corrects.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /corrects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/question_banks.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /question_banks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/subtopics.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /subtopics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-02-27 17:16:52 +0530
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/questions" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+  Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (2.2ms)[0m  SELECT `questions`.* FROM `questions` 
+Rendered questions/index.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 64ms (Views: 57.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /images.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/question_banks.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /question_banks.js - 200 OK (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /passages.js - 200 OK (0ms)
+
+
+Started GET "/assets/corrects.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /corrects.js - 200 OK (0ms)
+
+
+Started GET "/assets/subtopics.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /subtopics.js - 200 OK (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /topics.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 17:17:10 +0530
+Served asset /application.js - 200 OK (0ms)

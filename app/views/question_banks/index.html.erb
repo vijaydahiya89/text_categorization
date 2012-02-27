@@ -1,0 +1,23 @@
+<h1>Listing question_banks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @question_banks.each do |question_bank| %>
+  <tr>
+    <td><%= question_bank.name %></td>
+    <td><%= link_to 'Show', question_bank %></td>
+    <td><%= link_to 'Edit', edit_question_bank_path(question_bank) %></td>
+    <td><%= link_to 'Destroy', question_bank, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Question bank', new_question_bank_path %>

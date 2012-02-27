@@ -1,0 +1,40 @@
+<h1>Listing questions</h1>
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Topic_id</th>
+    <th>Passage_id</th>
+    <th>Question_Type</th>
+    <th>Subtopic_id</th>
+    <th>Direction_id</th>
+    <th>Positive_id</th>
+    <th>Negative_id</th>
+    <th>Difficulty_id</th>
+    <th>Answer Status</th>
+    <th>Question_bank_id</th>
+  </tr>
+
+<% for question in @questions %>
+  <tr>
+    <td><%=h question.question %></td>
+    <td><%=h question.topic_id %></td>
+    <td><%=h question.passage_id%></td>
+    <td><%=h question.question_type%></td>
+    <td><%=h question.subtopic_id %></td>
+    <td><%=h question.direction %></td>
+    <td><%=h question.positive_id%></td>
+    <td><%=h question.negative_id %></td>
+    <td><%=h question.difficulty_id %></td>
+    <td><%=h question.ans_status %> </td>
+    <td><%=h question.questionbank_id%></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<b>View all the Tables</b><br/>
+<a href="/questions">View Questions</a> | <a href="/answers">View Answers</a> | <a href="/images">View Images</a> | <a href="/subtopics">View Sub Topics</a> | <a href="/topics">View Topics</a><br/><br/>
+<b>Delete the Content</b><br/>
+<a href="/questions/destroy_all">Delete All Tables</a>|<a href="/questions/destroy">Delete Questions</a> | <a href="/answers/destroy">Delete Answers</a> | <a href="/images/destroy_all/1">Delete Images</a> | <a href="/subtopics/destroy_all/1">Delete Sub Topics</a> |  <a href="/topics/destroy_all/1">Delete Topics</a>

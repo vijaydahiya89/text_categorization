@@ -1,0 +1,27 @@
+<h1>Listing topics</h1>
+
+<table>
+  <tr>
+    <th>Topic</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @topics.each do |topic| %>
+  <tr>
+    <td><%= topic.topic %></td>
+    <td><%= link_to 'Show', topic %></td>
+    <td><%= link_to 'Edit', edit_topic_path(topic) %></td>
+    <td><%= link_to 'Destroy', topic, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<b>View all the Tables</b><br/>
+<a href="/questions">View Questions</a> | <a href="/answers">View Answers</a> | <a href="/images">View Images</a> | <a href="/subtopics">View Sub Topics</a> | <a href="/topics">View Topics</a><br/><br/>
+<b>Delete the Content</b><br/>
+<a href="/questions/destroy_all">Delete All Tables</a>|<a href="/questions/destroy">Delete Questions</a> | <a href="/answers/destroy">Delete Answers</a> | <a href="/images/destroy_all/1">Delete Images</a> | <a href="/subtopics/destroy_all/1">Delete Sub Topics</a> |  <a href="/topics/destroy_all/1">Delete Topics</a>
+<br/><br/>
+<%= link_to 'New Topic', new_topic_path %>

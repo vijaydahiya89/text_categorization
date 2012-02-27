@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328082839.542876:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%c8d132a753ffc86335fcd4375671021bI"logical_path;
+F"topics.jsI"pathname;
+FI"2$root/app/assets/javascripts/topics.js.coffee;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-02-01T13:19:27+05:30;
+FI"	body;
+FI"%(function() {
+
+
+
+}).call(this);
+;
+TI"asset_paths;
+F[I"2$root/app/assets/javascripts/topics.js.coffee;
+FI"dependency_paths;
+F[{I"	path;
+FI"2$root/app/assets/javascripts/topics.js.coffee;
+FI"
+mtime;
+FIu:	Time'€bª½Å
+:@_zoneI"IST;
+T:nano_numi¨:nano_deni:submicro"“`:offsetiXMI"hexdigest;
+F"%c12f0621e8cbf15a5c4dfa732f9f322aI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1329219457.5493531:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%84fd8d122442f03db0fce39d8849fd4eI"logical_path;
+F"passages.jsI"pathname;
+FI"4$root/app/assets/javascripts/passages.js.coffee;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-02-14T17:05:42+05:30;
+FI"	body;
+FI"%(function() {
+
+
+
+}).call(this);
+;
+TI"asset_paths;
+F[I"4$root/app/assets/javascripts/passages.js.coffee;
+FI"dependency_paths;
+F[{I"	path;
+FI"4$root/app/assets/javascripts/passages.js.coffee;
+FI"
+mtime;
+FIu:	TimeË€x«Ž
+:@_zoneI"IST;
+T:nano_numi˜:nano_deni:submicro"f@:offsetiXMI"hexdigest;
+F"%c12f0621e8cbf15a5c4dfa732f9f322aI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328594625.262398:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%3825b2c3a1b29ff8782812ee1eba1ca2I"logical_path;
+FI"my_images/-000.ppm;
+TI"pathname;
+FI"/$root/app/assets/images/my_images/-000.ppm;
+FI"content_type;
+FI"image/x-portable-pixmap;
+FI"
+mtime;
+FI"2012-02-07T11:24:02+05:30;
+FI"length;
+FI"15178769;
+FI"digest;
+F"%167cb7ffc315837336a499a6be8d58c9I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

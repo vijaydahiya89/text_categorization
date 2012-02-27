@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1330000054.4122036:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%a6980f4d084692a891e620e90de96920I"logical_path;
+F"question_banks.jsI"pathname;
+FI":$root/app/assets/javascripts/question_banks.js.coffee;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-02-23T17:40:26+05:30;
+FI"	body;
+FI"%(function() {
+
+
+
+}).call(this);
+;
+TI"asset_paths;
+F[I":$root/app/assets/javascripts/question_banks.js.coffee;
+FI"dependency_paths;
+F[{I"	path;
+FI":$root/app/assets/javascripts/question_banks.js.coffee;
+FI"
+mtime;
+FIu:	Timeì€Ùø¡)
+:@_zoneI"IST;
+T:nano_numi™:nano_deni:submicro"fP:offsetiXMI"hexdigest;
+F"%c12f0621e8cbf15a5c4dfa732f9f322aI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
